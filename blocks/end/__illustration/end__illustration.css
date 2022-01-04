@@ -1,0 +1,25 @@
+.end__illustration {
+    background-image: url('../../../img/__background.png');
+    height: 740px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.end__illustration::after {
+    content: "";
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.end__illustration:hover::after {
+    opacity: 0.8;
+}
