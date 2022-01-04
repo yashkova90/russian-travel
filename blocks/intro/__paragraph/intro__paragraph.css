@@ -6,3 +6,16 @@
     line-height: 26px;
     margin-bottom: 33px;
 }
+
+@media (max-width: 768px) {
+    .intro__paragraph {
+        max-width: 720px;
+    }
+}
+
+@media (max-width: 320px) {
+    .intro__paragraph {
+        max-width: 288px;
+    }
+}
+
