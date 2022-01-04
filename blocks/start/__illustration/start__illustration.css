@@ -5,7 +5,8 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
     .start__illustration {
-        width: 100%;
+        width: calc(100% + 96px);
+        margin: 0px -48px;
         height: 580px;
     }
 }
