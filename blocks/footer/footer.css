@@ -11,3 +11,10 @@
         padding-right: 24px;
     }
 }
+
+@media (max-width: 767px) {
+    .footer {
+        padding: 64px 16px 24px 16px;
+        display: block;
+    }
+}

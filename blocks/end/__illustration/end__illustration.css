@@ -35,3 +35,10 @@
         height: 480px;
     }
 }
+
+@media (max-width: 767px) {
+    .end__illustration {
+        height: 200px;
+        padding: 0px 16px;
+    }
+}

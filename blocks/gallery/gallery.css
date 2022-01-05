@@ -27,10 +27,11 @@
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .gallery {
-        grid-template-columns: 288px;
+        grid-template-columns: 100%;
         grid-template-rows: 216px;
         margin: 0px;
+        row-gap: 12px;
     }
 }

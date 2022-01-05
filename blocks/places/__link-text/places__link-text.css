@@ -10,3 +10,9 @@
 .places__link-text:hover {
     opacity: 0.8;
 }
+
+@media (max-width: 767px) {
+    .places__link-text {
+        margin-bottom: 32px;
+    }
+}

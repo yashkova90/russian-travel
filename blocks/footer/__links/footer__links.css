@@ -4,3 +4,9 @@
     justify-content: flex-start;
     gap: 18px;
 }
+
+@media (max-width: 767px) {
+    .footer__links {
+        display: block;
+    }
+}

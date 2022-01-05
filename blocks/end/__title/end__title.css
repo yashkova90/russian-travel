@@ -6,3 +6,12 @@
     width: 560px;
     margin: 0px auto 32px auto;
 }
+
+@media (max-width: 767px) {
+    .end__title {
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+}

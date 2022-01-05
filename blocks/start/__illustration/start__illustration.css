@@ -18,3 +18,11 @@
         margin: 0px -24px;
     }
 }
+
+@media (max-width: 767px) {
+    .start__illustration {
+        width: calc(100% + 32px);
+        height: 200px;
+        margin: 0px -16px;
+    }
+ }

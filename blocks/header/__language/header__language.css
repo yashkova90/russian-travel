@@ -4,3 +4,10 @@
     line-height: 28px;
     text-align: right;
 }
+
+@media (max-width: 767px) {
+    .header__language {
+        font-size: 18px;
+        line-height: 20px;
+    }
+ }

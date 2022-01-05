@@ -20,12 +20,13 @@
     .places__place {
         grid-template-columns: 340px auto;
         gap: 48px 28px;
-        margin-bottom: 42px;
+        margin-bottom: 73px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .places__place {
-        grid-template-columns: 320px auto;
+        display: block;
+        margin-bottom: 50px;
     }
 }

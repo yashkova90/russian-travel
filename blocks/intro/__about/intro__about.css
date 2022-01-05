@@ -17,3 +17,10 @@
         margin-bottom: 88px;
     }
  }
+
+ @media (max-width: 767px) {
+    .intro__about {
+        max-width: unset;
+        margin-bottom: 64px;
+    }
+ }

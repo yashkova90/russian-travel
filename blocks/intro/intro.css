@@ -11,7 +11,12 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .intro {
-        padding-left: 24px;
-        padding-right: 24px;
+        padding: 0px 24px 88px 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .intro {
+        padding: 0px 16px 64px 16px;
     }
 }
