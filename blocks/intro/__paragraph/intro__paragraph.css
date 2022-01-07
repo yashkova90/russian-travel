@@ -4,17 +4,11 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    margin-bottom: 33px;
+    margin: 0px 0px 33px 0px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
     .intro__paragraph {
         max-width: unset;
     }  
-
-@media (max-width: 767px) {
-    .intro__paragraph {
-        max-width: unset;
-    }
 }
-

@@ -1,11 +1,19 @@
 .intro {
-    padding: 0px 100px 92px 100px;
+    padding: 0px 0px 92px 0px;
+    width: 984px;
+    margin: 0px auto;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1279px) {
+    .intro {
+        width: 100%;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
     .intro {
-        padding-left: 48px;
-        padding-right: 48px;
+        padding: 0px 48px 92px 48px;
     }
 }
 

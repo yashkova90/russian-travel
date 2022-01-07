@@ -3,4 +3,5 @@
     color: #FFFFFF;
     margin: 0px auto;
     font-family: 'Inter', sans-serif;
+    min-width: 320px;
 }

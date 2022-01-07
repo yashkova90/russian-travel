@@ -3,10 +3,14 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 18px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
 }
 
 @media (max-width: 767px) {
     .footer__links {
         display: block;
+        margin-bottom: 64px;
     }
 }

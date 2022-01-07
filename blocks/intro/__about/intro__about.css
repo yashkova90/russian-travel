@@ -2,25 +2,13 @@
     max-width: 690px;
     font-size: 12px;
     line-height: 18px;
-    margin: 0px 0px 92px 0px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
-    .intro__about {
-       max-width: unset;
-    }
- }
- 
- @media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1279px) {
     .intro__about {
         max-width: unset;
-        margin-bottom: 88px;
     }
- }
-
- @media (max-width: 767px) {
-    .intro__about {
-        max-width: unset;
-        margin-bottom: 64px;
-    }
- }
+}
