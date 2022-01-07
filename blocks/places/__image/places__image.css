@@ -18,9 +18,7 @@
 
 @media (max-width: 767px) {
     .places__image {
-        width: calc(100% + 32px);
         height: 340px;
         margin: 0px auto 32px auto;
-        transform: translateX(-16px);
     }
 }

@@ -3,3 +3,9 @@
     flex-direction: column;
     align-self: end;
 }
+
+@media (max-width: 767px) {
+    .places__link {
+        padding: 0px 16px;
+    }
+}

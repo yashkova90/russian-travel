@@ -10,3 +10,9 @@
         line-height: 26px;
     }
 }
+
+@media (max-width: 767px) {
+    .places__text {
+        padding: 0px 16px;
+    }
+}
