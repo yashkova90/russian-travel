@@ -11,6 +11,6 @@
 @media (max-width: 767px) {
     .footer__links {
         display: block;
-        margin-bottom: 64px;
+        margin-bottom: 48px;
     }
 }

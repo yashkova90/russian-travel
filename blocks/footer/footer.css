@@ -2,7 +2,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 92px 48px 24px 48px;
+    padding: 92px 0px 24px 0px;
+    max-width: 1184px;
+    box-sizing: border-box;
+    margin: 0px auto;
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {

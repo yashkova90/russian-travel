@@ -18,7 +18,7 @@
 
 @media (max-width: 767px) {
     .places__image {
-        height: 340px;
+        height: 320px;
         margin: 0px auto 32px auto;
     }
 }

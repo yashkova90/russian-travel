@@ -7,9 +7,28 @@
     flex-direction: column;
     justify-content: center;
     z-index: 1;
-    width: 100%;
-    height: 100%;
     text-align: center;
     color: #fff;
     text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 245px 0px;
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .end__link {
+        padding: 195px 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .end__link {
+        padding: 115px 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .end__link {
+        padding: 33px 0px;
+    }
 }

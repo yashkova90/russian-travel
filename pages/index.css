@@ -11,6 +11,7 @@
 @import url('../blocks/header/__logo/header__logo.css');
 
 @import url('../blocks/start/start.css');
+@import url('../blocks/start/__figure/start__figure.css');
 @import url('../blocks/start/__caption/start__caption.css');
 @import url('../blocks/start/__illustration/start__illustration.css');
 @import url('../blocks/start/__subtitle/start__subtitle.css');
