@@ -19,7 +19,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
    .start {
-      padding: 48px 24px 88px 24px;
+      padding: 48px 0px 88px 0px;
    }
 }
 

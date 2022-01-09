@@ -8,6 +8,12 @@
     margin: 0px auto;
 }
 
+@media (min-width: 1024px) and (max-width: 1279px) {
+    .footer {
+        padding: 92px 48px 24px 48px;
+    }
+}
+
 @media (min-width: 768px) and (max-width: 1023px) {
     .footer {
         padding: 88px 24px 24px 24px;

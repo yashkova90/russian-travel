@@ -16,6 +16,6 @@
 
 @media (max-width: 767px) {
     .gallery {
-        padding: 0px 0px 64px 0px;
+        padding: 0px 16px 64px 16px;
     }
 }
